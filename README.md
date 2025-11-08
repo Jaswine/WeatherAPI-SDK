@@ -33,7 +33,7 @@ make install
 
 #### 3. Configure Environment Variables
 
-Create `.env` file:
+Create `.env` file and get api key from https://home.openweathermap.org/api_keys:
 
 ```bash
 cp .env.example .env
@@ -41,7 +41,6 @@ cp .env.example .env
 
 #### 4. Run examples
 
-**In first terminal:**
 ```bash
 make run
 ```
@@ -53,6 +52,7 @@ weatherapi-sdk/
 ├── examples/
 │   ├── example1.py         # Example 1
 │   ├── example2.py         # Example 2
+│   └── settings.py         # Settings for examples
 ├── src/
 │   ├── shemas/             # Schemas
 │   │   └── weather_schemas.py
